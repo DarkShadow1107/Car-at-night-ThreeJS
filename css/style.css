@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+* {
+	margin: 0;
+}
+body {
+	font-family: Merriweather, serif;
+}
+.loading {
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	background: #001219;
+	color: #e9c46a;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1.5s ease-in-out;
+}
